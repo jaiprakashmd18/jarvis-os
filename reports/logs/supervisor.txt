@@ -1,0 +1,25 @@
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 310ms
+INFO:     Started server process [15159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:43962 - "GET /api/system/ping HTTP/1.1" 200 OK
+JARVIS backend and web ready
+INFO:     127.0.0.1:59710 - "GET /api/system/ping HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15159]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/jarvis-os/desktop/jarvis_desktop/service.py", line 71, in <module>
+    main()
+  File "/workspace/jarvis-os/desktop/jarvis_desktop/service.py", line 65, in main
+    raise RuntimeError('A production server exited')
+RuntimeError: A production server exited

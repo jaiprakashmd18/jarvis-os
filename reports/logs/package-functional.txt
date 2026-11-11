@@ -1,0 +1,4 @@
+First-run owner creation and memory write passed.
+Packaged CPU recognition: Open Terminal.
+Packaged local espeak WAV synthesis passed: 70752 bytes.
+Unprivileged production web/API, health, voice availability and memory passed: before

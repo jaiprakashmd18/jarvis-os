@@ -1,0 +1,65 @@
+Warning: Ignoring extra certs from `/run/cloud-ca.crt`, load failed: error:80000002:system library::No such file or directory
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 103ms
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/jarvis/upstream/services/api/src/jarvis_api/main.py", line 117, in <module>
+    run()
+  File "/opt/jarvis/upstream/services/api/src/jarvis_api/main.py", line 113, in run
+    uvicorn.run("jarvis_api.main:create_app", factory=True, host=s.host, port=s.port)
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/uvicorn/main.py", line 632, in run
+    server.run()
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/uvicorn/server.py", line 86, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1515, in uvloop.loop.Loop.run_until_complete
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/uvicorn/server.py", line 90, in serve
+    await self._serve(sockets)
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/uvicorn/server.py", line 97, in _serve
+    config.load()
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/uvicorn/config.py", line 514, in load
+    self.loaded_app = self.loaded_app()
+                      ^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/services/api/src/jarvis_api/main.py", line 76, in create_app
+    app.state.providers = ProviderManager(settings, provider_overrides)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/services/api/src/jarvis_api/services/providers.py", line 43, in __init__
+    self._add("ollama", "Ollama (local)", True, False, OllamaProvider(settings.ollama_url))
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/core/src/jarvis_core/providers/ollama.py", line 46, in __init__
+    self._client = httpx.AsyncClient(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1402, in __init__
+    self._transport = self._init_transport(
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1445, in _init_transport
+    return AsyncHTTPTransport(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 297, in __init__
+    ssl_context = create_ssl_context(verify=verify, cert=cert, trust_env=trust_env)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/jarvis/upstream/.venv/lib/python3.12/site-packages/httpx/_config.py", line 35, in create_ssl_context
+    ctx = ssl.create_default_context(cafile=os.environ["SSL_CERT_FILE"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 708, in create_default_context
+    context.load_verify_locations(cafile, capath, cadata)
+FileNotFoundError: [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/jarvis/desktop/jarvis_desktop/service.py", line 71, in <module>
+    main()
+  File "/opt/jarvis/desktop/jarvis_desktop/service.py", line 56, in main
+    raise RuntimeError('A production server exited; inspect journalctl --user -u jarvis')
+RuntimeError: A production server exited; inspect journalctl --user -u jarvis

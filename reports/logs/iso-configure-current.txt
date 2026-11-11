@@ -1,0 +1,139 @@
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1160 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [93.9 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [234 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.3 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/main Icons (48x48) [19.2 kB]
+Get:10 http://security.ubuntu.com/ubuntu noble-security/main Icons (64x64) [26.7 kB]
+Get:11 http://security.ubuntu.com/ubuntu noble-security/main Icons (128x128) [55.4 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
+Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [11.9 kB]
+Get:14 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1729 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1444 kB]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [396 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [444 B]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [315 kB]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1228 kB]
+Get:22 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [248 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main Icons (48x48) [37.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main Icons (64x64) [52.7 kB]
+Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main Icons (128x128) [118 kB]
+Get:27 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+Get:28 http://security.ubuntu.com/ubuntu noble-security/universe Icons (48x48) [51.2 kB]
+Get:29 http://security.ubuntu.com/ubuntu noble-security/universe Icons (64x64) [80.0 kB]
+Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.7 kB]
+Get:31 http://security.ubuntu.com/ubuntu noble-security/universe Icons (128x128) [153 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1879 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [429 kB]
+Get:34 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [24.2 kB]
+Get:35 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [45.4 kB]
+Get:36 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.4 kB]
+Get:37 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Get:38 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [468 B]
+Get:39 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:40 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 c-n-f Metadata [456 B]
+Get:41 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1711 kB]
+Get:42 http://archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [344 kB]
+Get:43 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble-updates/universe Icons (48x48) [238 kB]
+Get:45 http://archive.ubuntu.com/ubuntu noble-updates/universe Icons (64x64) [375 kB]
+Get:46 http://archive.ubuntu.com/ubuntu noble-updates/universe Icons (128x128) [789 kB]
+Get:47 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [34.9 kB]
+Get:48 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [50.7 kB]
+Get:49 http://archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.3 kB]
+Get:50 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:51 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [656 B]
+Fetched 31.1 MB in 10s (2966 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  espeak-ng libatkmm-1.6-1v5 libcairomm-1.0-1v5 libglibmm-2.4-1t64
+  libgtkmm-3.0-1t64 libmspack0t64 libpangomm-1.4-1v5 open-vm-tools zerofree
+Suggested packages:
+  cloud-init open-vm-tools-containerinfo open-vm-tools-salt-minion
+The following NEW packages will be installed:
+  espeak-ng jarvis-os-desktop libatkmm-1.6-1v5 libcairomm-1.0-1v5
+  libglibmm-2.4-1t64 libgtkmm-3.0-1t64 libmspack0t64 libpangomm-1.4-1v5
+  open-vm-tools open-vm-tools-desktop zerofree
+0 upgraded, 11 newly installed, 0 to remove and 488 not upgraded.
+Need to get 3056 kB/293 MB of archives.
+After this operation, 13.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 open-vm-tools amd64 2:13.0.10-0ubuntu0.24.04.2 [724 kB]
+Get:2 http://security.ubuntu.com/ubuntu noble-security/main amd64 libmspack0t64 amd64 0.11-1.1ubuntu0.24.04.1 [40.2 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble/universe amd64 espeak-ng amd64 1.51+dfsg-12build1 [364 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libglibmm-2.4-1t64 amd64 2.66.7-1build1 [629 kB]
+Get:5 /tmp/jarvis.deb jarvis-os-desktop amd64 1.0.0 [290 MB]
+Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 libatkmm-1.6-1v5 amd64 2.28.4-1build4 [77.1 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 libcairomm-1.0-1v5 amd64 1.14.5-1build1 [43.9 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 libpangomm-1.4-1v5 amd64 2.46.4-1build3 [52.2 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 libgtkmm-3.0-1t64 amd64 3.24.9-1 [983 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 open-vm-tools-desktop amd64 2:13.0.10-0ubuntu0.24.04.2 [136 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 zerofree amd64 1.1.1-1build5 [7888 B]
+Fetched 3056 kB in 3s (963 kB/s)
+Selecting previously unselected package libmspack0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195050 files and directories currently installed.)
+Preparing to unpack .../00-libmspack0t64_0.11-1.1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libmspack0t64:amd64 (0.11-1.1ubuntu0.24.04.1) ...
+Selecting previously unselected package open-vm-tools.
+Preparing to unpack .../01-open-vm-tools_2%3a13.0.10-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking open-vm-tools (2:13.0.10-0ubuntu0.24.04.2) ...
+Selecting previously unselected package espeak-ng.
+Preparing to unpack .../02-espeak-ng_1.51+dfsg-12build1_amd64.deb ...
+Unpacking espeak-ng (1.51+dfsg-12build1) ...
+Selecting previously unselected package libglibmm-2.4-1t64:amd64.
+Preparing to unpack .../03-libglibmm-2.4-1t64_2.66.7-1build1_amd64.deb ...
+Unpacking libglibmm-2.4-1t64:amd64 (2.66.7-1build1) ...
+Selecting previously unselected package libatkmm-1.6-1v5:amd64.
+Preparing to unpack .../04-libatkmm-1.6-1v5_2.28.4-1build4_amd64.deb ...
+Unpacking libatkmm-1.6-1v5:amd64 (2.28.4-1build4) ...
+Selecting previously unselected package libcairomm-1.0-1v5:amd64.
+Preparing to unpack .../05-libcairomm-1.0-1v5_1.14.5-1build1_amd64.deb ...
+Unpacking libcairomm-1.0-1v5:amd64 (1.14.5-1build1) ...
+Selecting previously unselected package libpangomm-1.4-1v5:amd64.
+Preparing to unpack .../06-libpangomm-1.4-1v5_2.46.4-1build3_amd64.deb ...
+Unpacking libpangomm-1.4-1v5:amd64 (2.46.4-1build3) ...
+Selecting previously unselected package libgtkmm-3.0-1t64:amd64.
+Preparing to unpack .../07-libgtkmm-3.0-1t64_3.24.9-1_amd64.deb ...
+Unpacking libgtkmm-3.0-1t64:amd64 (3.24.9-1) ...
+Selecting previously unselected package jarvis-os-desktop.
+Preparing to unpack .../08-jarvis.deb ...
+Unpacking jarvis-os-desktop (1.0.0) ...
+Selecting previously unselected package open-vm-tools-desktop.
+Preparing to unpack .../09-open-vm-tools-desktop_2%3a13.0.10-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking open-vm-tools-desktop (2:13.0.10-0ubuntu0.24.04.2) ...
+Selecting previously unselected package zerofree.
+Preparing to unpack .../10-zerofree_1.1.1-1build5_amd64.deb ...
+Unpacking zerofree (1.1.1-1build5) ...
+Setting up zerofree (1.1.1-1build5) ...
+Setting up libmspack0t64:amd64 (0.11-1.1ubuntu0.24.04.1) ...
+Setting up libcairomm-1.0-1v5:amd64 (1.14.5-1build1) ...
+Setting up libglibmm-2.4-1t64:amd64 (2.66.7-1build1) ...
+Setting up libpangomm-1.4-1v5:amd64 (2.46.4-1build3) ...
+Setting up open-vm-tools (2:13.0.10-0ubuntu0.24.04.2) ...
+Running in chroot, ignoring request.
+Running in chroot, ignoring request.
+Created symlink /etc/systemd/system/vmtoolsd.service → /usr/lib/systemd/system/open-vm-tools.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/open-vm-tools.service → /usr/lib/systemd/system/open-vm-tools.service.
+Created symlink /etc/systemd/system/open-vm-tools.service.requires/vgauth.service → /usr/lib/systemd/system/vgauth.service.
+Setting up espeak-ng (1.51+dfsg-12build1) ...
+Setting up libatkmm-1.6-1v5:amd64 (2.28.4-1build4) ...
+Setting up jarvis-os-desktop (1.0.0) ...
+Setting up libgtkmm-3.0-1t64:amd64 (3.24.9-1) ...
+Setting up open-vm-tools-desktop (2:13.0.10-0ubuntu0.24.04.2) ...
+libkmod: ERROR ../libkmod/libkmod-module.c:1762 kmod_module_new_from_loaded: could not open /proc/modules: No such file or directory
+Error: could not get list of modules: No such file or directory
+modprobe: FATAL: Module fuse not found in directory /lib/modules/6.18.57
+Created symlink /etc/systemd/system/multi-user.target.wants/run-vmblock\x2dfuse.mount → /usr/lib/systemd/system/run-vmblock\x2dfuse.mount.
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+update-alternatives: using /usr/share/plymouth/themes/jarvis/jarvis.plymouth to provide /usr/share/plymouth/themes/default.plymouth (default.plymouth) in manual mode

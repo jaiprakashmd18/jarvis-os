@@ -1,0 +1,29 @@
+[WebServer] INFO:     Started server process [10293]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] (node:10300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:10313) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer]  ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+
+Running 3 tests using 1 worker
+
+(node:10325) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] INFO:     127.0.0.1:43352 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+[WebServer] INFO:     127.0.0.1:43364 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✓  1 vendor/jarvis/apps/web/e2e/jarvis.spec.ts:7:5 › first-run setup, chat, tool approval, memory, logs (2.3s)
+[WebServer] INFO:     127.0.0.1:43404 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✓  2 vendor/jarvis/apps/web/e2e/jarvis.spec.ts:48:5 › sign out and sign back in (986ms)
+[WebServer] INFO:     127.0.0.1:43472 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+[WebServer] INFO:     127.0.0.1:43492 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✓  3 vendor/jarvis/apps/web/e2e/voice.spec.ts:5:5 › push-to-talk: record, transcribe, reply, speak (2.7s)
+
+  3 passed (9.7s)

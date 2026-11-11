@@ -1,0 +1,20 @@
+xorriso 1.5.6 : RockRidge filesystem manipulator, libburnia project.
+
+Copying of file objects from ISO image to disk filesystem is: Enabled
+xorriso : NOTE : Loading ISO image tree from LBA 0
+xorriso : UPDATE :     902 nodes read in 1 seconds
+libisofs: NOTE : Found hidden El-Torito image for EFI.
+libisofs: NOTE : EFI image start and size: 2414816 * 2048 , 10160 * 512
+xorriso : NOTE : Detected El-Torito boot information which currently is set to be discarded
+Drive current: -indev 'dist/jarvis-os-1.0.0-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is written , is appendable
+Boot record  : El Torito , MBR protective-msdos-label grub2-mbr cyl-align-off GPT
+Media summary: 1 session, 2417372 data blocks, 4721m data, 13.4g free
+Volume id    : 'JARVIS_OS_1_0'
+xorriso : UPDATE :       1 files restored ( 18615b) in 1 seconds = 0.0xD
+Extracted from ISO image: file '/md5sum.txt'='/workspace/jarvis-os/build/qemu/final-md5.txt'
+xorriso : UPDATE :       1 files restored (   781b) in 1 seconds = 0.0xD
+Extracted from ISO image: file '/boot/grub/grub.cfg'='/workspace/jarvis-os/build/qemu/final-grub.cfg'
+xorriso : UPDATE :       1 files restored (    11b) in 1 seconds = 0.0xD
+Extracted from ISO image: file '/casper/filesystem.size'='/workspace/jarvis-os/build/qemu/final-size.txt'

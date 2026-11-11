@@ -1,0 +1,2 @@
+jarvis-os-1.0.0-amd64.iso: OK
+jarvis-os-desktop_1.0.0_amd64.deb: OK

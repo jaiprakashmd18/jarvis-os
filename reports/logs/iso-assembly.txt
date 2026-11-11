@@ -1,0 +1,54 @@
+xorriso 1.5.6 : RockRidge filesystem manipulator, libburnia project.
+
+xorriso : NOTE : Loading ISO image tree from LBA 0
+xorriso : UPDATE :     903 nodes read in 1 seconds
+libisofs: NOTE : Found hidden El-Torito image for EFI.
+libisofs: NOTE : EFI image start and size: 2223864 * 2048 , 10160 * 512
+xorriso : NOTE : Detected El-Torito boot information which currently is set to be discarded
+Drive current: -indev '/workspace/jarvis-os/cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is written , is appendable
+Boot record  : El Torito , MBR protective-msdos-label grub2-mbr cyl-align-off GPT
+Media summary: 1 session, 2226570 data blocks, 4349m data, 40.9g free
+Volume id    : 'Kubuntu 24.04.3 LTS amd64'
+Drive current: -outdev '/workspace/jarvis-os/dist/jarvis-os-1.0.0-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 40.9g free
+xorriso : WARNING : -volid text problematic as automatic mount point name
+xorriso : WARNING : -volid text does not comply to ISO 9660 / ECMA 119 rules
+xorriso : NOTE : Replayed 22 boot related commands
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/casper/filesystem.squashfs'='/workspace/jarvis-os/build/iso/tree/casper/filesystem.squashfs'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/casper/filesystem.manifest'='/workspace/jarvis-os/build/iso/tree/casper/filesystem.manifest'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/casper/filesystem.size'='/workspace/jarvis-os/build/iso/tree/casper/filesystem.size'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/casper/initrd'='/workspace/jarvis-os/build/iso/tree/casper/initrd'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/md5sum.txt'='/workspace/jarvis-os/build/iso/tree/md5sum.txt'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/boot/grub/loopback.cfg'='/workspace/jarvis-os/build/iso/tree/boot/grub/loopback.cfg'
+xorriso : UPDATE :       1 files added in 1 seconds
+Added to ISO image: file '/boot/grub/grub.cfg'='/workspace/jarvis-os/build/iso/tree/boot/grub/grub.cfg'
+Removed from ISO image: file '/casper/filesystem.squashfs.gpg'
+xorriso : NOTE : Copying to System Area: 32768 bytes from file '--interval:imported_iso:0s-15s:zero_mbrpt,zero_gpt:/workspace/jarvis-os/cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+xorriso : UPDATE : Writing:      16384s    0.7%   fifo 100%  buf  50%
+xorriso : UPDATE : Writing:      29120s    1.2%   fifo  98%  buf  50%
+xorriso : UPDATE : Writing:     179168s    7.6%   fifo  99%  buf  50%  221.6xD 
+xorriso : UPDATE : Writing:     326640s   13.9%   fifo 100%  buf  50%  217.8xD 
+xorriso : UPDATE : Writing:     483152s   20.5%   fifo 100%  buf  50%  231.1xD 
+xorriso : UPDATE : Writing:     655344s   27.8%   fifo 100%  buf  50%  254.3xD 
+xorriso : UPDATE : Writing:     831584s   35.3%   fifo  99%  buf  50%  260.3xD 
+xorriso : UPDATE : Writing:    1006848s   42.7%   fifo 100%  buf  50%  258.9xD 
+xorriso : UPDATE : Writing:    1175536s   49.9%   fifo 100%  buf  50%  249.1xD 
+xorriso : UPDATE : Writing:    1340336s   56.9%   fifo  99%  buf  50%  243.4xD 
+xorriso : UPDATE : Writing:    1498336s   63.6%   fifo 100%  buf  50%  233.3xD 
+xorriso : UPDATE : Writing:    1663936s   70.6%   fifo 100%  buf  50%  244.6xD 
+xorriso : UPDATE : Writing:    2116304s   89.8%   fifo 100%  buf  50%  667.5xD 
+xorriso : UPDATE : Writing:    2351104s   99.8%   fifo  23%  buf  50%  346.8xD 
+ISO image produced: 2356344 sectors
+Written to medium : 2356496 sectors at LBA 48
+Writing to '/workspace/jarvis-os/dist/jarvis-os-1.0.0-amd64.iso' completed successfully.
+

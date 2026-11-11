@@ -1,0 +1,1 @@
+Build the release package on Ubuntu 24.04 amd64 (glibc/Python ABI).

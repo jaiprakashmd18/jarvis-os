@@ -1,0 +1,3 @@
+#!/bin/sh
+export PYTHONPATH=/opt/jarvis/desktop
+exec /usr/bin/python3 -m jarvis_desktop.app "$@"

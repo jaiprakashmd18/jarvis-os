@@ -1,0 +1,47 @@
+xorriso 1.5.6 : RockRidge filesystem manipulator, libburnia project.
+
+Copying of file objects from ISO image to disk filesystem is: Enabled
+xorriso : NOTE : Loading ISO image tree from LBA 0
+xorriso : UPDATE :     903 nodes read in 1 seconds
+libisofs: NOTE : Found hidden El-Torito image for EFI.
+libisofs: NOTE : EFI image start and size: 2223864 * 2048 , 10160 * 512
+xorriso : NOTE : Detected El-Torito boot information which currently is set to be discarded
+Drive current: -indev '/workspace/jarvis-os/cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is written , is appendable
+Boot record  : El Torito , MBR protective-msdos-label grub2-mbr cyl-align-off GPT
+Media summary: 1 session, 2226570 data blocks, 4349m data, 53.1g free
+Volume id    : 'Kubuntu 24.04.3 LTS amd64'
+xorriso : UPDATE :     591 files restored ( 353.5m) in 1 seconds , 267.5xD
+xorriso : UPDATE :     591 files restored ( 942.5m) in 2 seconds , 445.9xD
+xorriso : UPDATE :     591 files restored (3102.5m) in 3 seconds , 1635.0xD
+xorriso : UPDATE :     903 files restored (4341.3m) in 4 seconds = 895.5xD
+Extracted from ISO image: file '/'='/workspace/jarvis-os/build/iso/tree'
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/console, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/full, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/null, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/ptmx, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/random, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/tty, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/urandom, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/zero, because Operation not permitted
+Parallel unsquashfs: Using 5 processors
+199822 inodes (203324 blocks) to write
+
+[/                                                         ]    859/403146   0%[\                                                         ]   5434/403146   1%[=|                                                        ]  13147/403146   3%[===/                                                      ]  22387/403146   5%[===-                                                      ]  27022/403146   6%[====\                                                     ]  31033/403146   7%[=====|                                                    ]  38354/403146   9%[=======/                                                  ]  51676/403146  12%[==========-                                               ]  71132/403146  17%[==========\                                               ]  75850/403146  18%[===========|                                              ]  78785/403146  19%[===========/                                              ]  80740/403146  20%[============\                                             ]  87034/403146  21%[============|                                             ]  90546/403146  22%[==============/                                           ] 101311/403146  25%[=================-                                        ] 121722/403146  30%[===================\                                      ] 139638/403146  34%[====================|                                     ] 146722/403146  36%[======================/                                   ] 162632/403146  40%[==========================-                               ] 186833/403146  46%[=============================\                            ] 211071/403146  52%[==================================|                       ] 242447/403146  60%[======================================/                   ] 274084/403146  67%[==========================================-               ] 300620/403146  74%[============================================\             ] 312739/403146  77%[=============================================|            ] 323805/403146  80%[================================================/         ] 341050/403146  84%[===================================================-      ] 362672/403146  89%[=====================================================\    ] 381204/403146  94%[======================================================|   ] 383109/403146  95%[======================================================\   ] 387948/403146  96%[========================================================| ] 403138/403146  99%
+
+created 172180 files
+created 17998 directories
+created 27605 symlinks
+created 0 devices
+created 0 fifos
+created 0 sockets
+created 29 hardlinks

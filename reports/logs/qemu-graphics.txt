@@ -1,0 +1,100 @@
+Nov 11 13:14:18 kubuntu kwin_x11[3803]: failed to load driver: virtio_gpu
+Nov 11 13:14:36 kubuntu systemd[1814]: Started plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:15:09 kubuntu kwin_x11[3803]: Couldn't start kglobalaccel from org.kde.kglobalaccel.service: QDBusError("org.freedesktop.DBus.Error.NoReply", "Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.")
+Nov 11 13:15:15 kubuntu plasmashell[3162]: file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/InlineMessage.qml:265:13: QML SelectableLabel: Binding loop detected for property "implicitWidth"
+Nov 11 13:15:16 kubuntu plasmashell[3162]: The X11 connection broke: I/O error (code 1)
+Nov 11 13:15:16 kubuntu plasmashell[3162]: XIO:  fatal IO error 2 (No such file or directory) on X server ":0"
+Nov 11 13:15:16 kubuntu plasmashell[3162]:       after 670 requests (669 known processed) with 0 events remaining.
+Nov 11 13:15:17 kubuntu systemd[1814]: plasma-plasmashell.service: Consumed 17.222s CPU time.
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: OpenGL vendor string:                   Mesa
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: OpenGL renderer string:                 llvmpipe (LLVM 19.1.1, 256 bits)
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: OpenGL version string:                  4.5 (Compatibility Profile) Mesa 25.0.7-0ubuntu0.24.04.1
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: OpenGL shading language version string: 4.50
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Driver:                                 LLVMpipe
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: GPU class:                              Unknown
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: OpenGL version:                         4.5
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: GLSL version:                           4.50
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Mesa version:                           25.0.7
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: X server version:                       1.21.1
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Linux kernel version:                   6.14
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Requires strict binding:                yes
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: GLSL shaders:                           yes
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Texture NPOT support:                   yes
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: Virtual Machine:                        no
+Nov 11 13:15:24 kubuntu kwin_x11[3803]: kwin_platform_x11_standalone: glSwapInterval is unsupported
+Nov 11 13:15:34 kubuntu kwin_x11[3803]: The X11 connection broke: I/O error (code 1)
+Nov 11 13:15:34 kubuntu kwin_x11[3803]: XIO:  fatal IO error 2 (No such file or directory) on X server ":0"
+Nov 11 13:15:34 kubuntu kwin_x11[3803]:       after 806 requests (806 known processed) with 0 events remaining.
+Nov 11 13:15:34 kubuntu systemd[1814]: plasma-kwin_x11.service: Main process exited, code=exited, status=1/FAILURE
+Nov 11 13:15:35 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed with result 'exit-code'.
+Nov 11 13:15:35 kubuntu systemd[1814]: plasma-kwin_x11.service: Consumed 7.885s CPU time.
+Nov 11 13:15:35 kubuntu systemd[1814]: plasma-kwin_x11.service: Scheduled restart job, restart counter is at 2.
+Nov 11 13:15:35 kubuntu systemd[1814]: Starting plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:15:40 kubuntu kwin_x11[4078]: glx: failed to create dri3 screen
+Nov 11 13:15:40 kubuntu kwin_x11[4078]: failed to load driver: virtio_gpu
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: OpenGL vendor string:                   Mesa
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: OpenGL renderer string:                 llvmpipe (LLVM 19.1.1, 256 bits)
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: OpenGL version string:                  4.5 (Compatibility Profile) Mesa 25.0.7-0ubuntu0.24.04.1
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: OpenGL shading language version string: 4.50
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Driver:                                 LLVMpipe
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: GPU class:                              Unknown
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: OpenGL version:                         4.5
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: GLSL version:                           4.50
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Mesa version:                           25.0.7
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: X server version:                       1.21.1
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Linux kernel version:                   6.14
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Requires strict binding:                yes
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: GLSL shaders:                           yes
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Texture NPOT support:                   yes
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: Virtual Machine:                        no
+Nov 11 13:15:56 kubuntu kwin_x11[4078]: kwin_platform_x11_standalone: glSwapInterval is unsupported
+Nov 11 13:15:58 kubuntu kwin_x11[4078]: The X11 connection broke: I/O error (code 1)
+Nov 11 13:15:58 kubuntu kwin_x11[4078]: XIO:  fatal IO error 2 (No such file or directory) on X server ":0"
+Nov 11 13:15:58 kubuntu kwin_x11[4078]:       after 799 requests (799 known processed) with 0 events remaining.
+Nov 11 13:15:58 kubuntu systemd[1814]: plasma-kwin_x11.service: Main process exited, code=exited, status=1/FAILURE
+Nov 11 13:15:58 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed with result 'exit-code'.
+Nov 11 13:15:58 kubuntu systemd[1814]: Failed to start plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:15:58 kubuntu systemd[1814]: plasma-kwin_x11.service: Consumed 6.389s CPU time.
+Nov 11 13:15:59 kubuntu systemd[1814]: plasma-kwin_x11.service: Scheduled restart job, restart counter is at 3.
+Nov 11 13:15:59 kubuntu systemd[1814]: Starting plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:16:00 kubuntu systemd[1814]: Started plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:16:05 kubuntu kwin_x11[4148]: glx: failed to create dri3 screen
+Nov 11 13:16:05 kubuntu kwin_x11[4148]: failed to load driver: virtio_gpu
+Nov 11 13:16:12 kubuntu kwin_x11[4148]: kwin_core: Compositing disabled: video driver seems unstable. If you think it's a false positive, please try again in a few minutes.
+Nov 11 13:16:12 kubuntu kwin_x11[4148]: kwin_core: Compositing is not possible
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Main process exited, code=exited, status=15/n/a
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed with result 'exit-code'.
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Consumed 5.671s CPU time.
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Scheduled restart job, restart counter is at 4.
+Nov 11 13:16:14 kubuntu systemd[1814]: Starting plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:16:16 kubuntu kwin_x11[4220]: glx: failed to create dri3 screen
+Nov 11 13:16:16 kubuntu kwin_x11[4220]: failed to load driver: virtio_gpu
+Nov 11 13:16:19 kubuntu systemd[1814]: Started plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:16:25 kubuntu kwin_x11[4220]: kwin_core: Compositing disabled: video driver seems unstable. If you think it's a false positive, please try again in a few minutes.
+Nov 11 13:16:25 kubuntu kwin_x11[4220]: kwin_core: Compositing is not possible
+Nov 11 13:20:24 kubuntu systemd[1814]: Stopping plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:20:24 kubuntu systemd[1814]: Starting plasma-plasmashell.service - KDE Plasma Workspace...
+Nov 11 13:21:04 kubuntu systemd[1814]: plasma-plasmashell.service: start operation timed out. Terminating.
+Nov 11 13:21:04 kubuntu systemd[1814]: plasma-plasmashell.service: Failed with result 'timeout'.
+Nov 11 13:21:04 kubuntu systemd[1814]: Failed to start plasma-plasmashell.service - KDE Plasma Workspace.
+Nov 11 13:21:04 kubuntu systemd[1814]: plasma-plasmashell.service: Scheduled restart job, restart counter is at 1.
+Nov 11 13:21:04 kubuntu systemd[1814]: Starting plasma-plasmashell.service - KDE Plasma Workspace...
+Nov 11 13:21:45 kubuntu systemd[1814]: plasma-plasmashell.service: start operation timed out. Terminating.
+Nov 11 13:21:45 kubuntu systemd[1814]: plasma-plasmashell.service: Failed with result 'timeout'.
+Nov 11 13:21:45 kubuntu systemd[1814]: Failed to start plasma-plasmashell.service - KDE Plasma Workspace.
+Nov 11 13:21:45 kubuntu systemd[1814]: plasma-plasmashell.service: Scheduled restart job, restart counter is at 2.
+Nov 11 13:21:45 kubuntu systemd[1814]: Starting plasma-plasmashell.service - KDE Plasma Workspace...
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: State 'stop-sigterm' timed out. Killing.
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: Killing process 4220 (kwin_x11) with signal SIGKILL.
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed to kill control group /user.slice/user-1000.slice/user@1000.service/session.slice/plasma-kwin_x11.service, ignoring: Invalid argument
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: Main process exited, code=killed, status=9/KILL
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed with result 'timeout'.
+Nov 11 13:21:54 kubuntu systemd[1814]: Stopped plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:21:54 kubuntu systemd[1814]: plasma-kwin_x11.service: Consumed 4.886s CPU time.
+Nov 11 13:21:54 kubuntu systemd[1814]: Starting plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:22:25 kubuntu systemd[1814]: plasma-plasmashell.service: start operation timed out. Terminating.
+Nov 11 13:22:25 kubuntu systemd[1814]: plasma-plasmashell.service: Failed with result 'timeout'.
+Nov 11 13:22:25 kubuntu systemd[1814]: Failed to start plasma-plasmashell.service - KDE Plasma Workspace.
+Nov 11 13:22:25 kubuntu systemd[1814]: plasma-plasmashell.service: Consumed 1.114s CPU time.
+Nov 11 13:22:25 kubuntu systemd[1814]: plasma-plasmashell.service: Scheduled restart job, restart counter is at 3.
+Nov 11 13:22:25 kubuntu systemd[1814]: Starting plasma-plasmashell.service - KDE Plasma Workspace...

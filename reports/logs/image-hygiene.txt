@@ -1,0 +1,16 @@
+drwxr-xr-x root/root               369 2025-08-05 16:56 squashfs-root
+drwxr-xr-x root/root               191 2025-08-05 16:48 squashfs-root/dev
+crw-rw-rw- root/root             5,  1 2026-11-11 12:47 squashfs-root/dev/console
+lrwxrwxrwx root/root                13 2025-08-05 16:48 squashfs-root/dev/fd -> /proc/self/fd
+crw-rw-rw- root/root             1,  7 2026-11-11 12:47 squashfs-root/dev/full
+crw-rw-rw- root/root             1,  3 2026-11-11 12:47 squashfs-root/dev/null
+crw-rw-rw- root/root             5,  2 2026-11-11 12:47 squashfs-root/dev/ptmx
+drwxr-xr-x root/root                 3 2025-08-05 16:48 squashfs-root/dev/pts
+crw-rw-rw- root/root             1,  8 2026-11-11 12:47 squashfs-root/dev/random
+drwxr-xr-x root/root                 3 2025-08-05 16:48 squashfs-root/dev/shm
+lrwxrwxrwx root/root                15 2025-08-05 16:48 squashfs-root/dev/stderr -> /proc/self/fd/2
+lrwxrwxrwx root/root                15 2025-08-05 16:48 squashfs-root/dev/stdin -> /proc/self/fd/0
+lrwxrwxrwx root/root                15 2025-08-05 16:48 squashfs-root/dev/stdout -> /proc/self/fd/1
+crw-rw-rw- root/root             5,  0 2026-11-11 12:47 squashfs-root/dev/tty
+crw-rw-rw- root/root             1,  9 2026-11-11 12:47 squashfs-root/dev/urandom
+crw-rw-rw- root/root             1,  5 2026-11-11 12:47 squashfs-root/dev/zero

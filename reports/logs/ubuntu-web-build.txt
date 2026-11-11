@@ -1,0 +1,70 @@
+
+> @jarvis/web@0.1.0 lint
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 10.9.9 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> @jarvis/web@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /workspace/jarvis-os/vendor/jarvis/apps/web
+
+ ✓ src/lib/format.test.ts (2 tests) 3ms
+ ✓ src/lib/chat.test.ts (5 tests) 5ms
+ ✓ src/lib/audio/audio.test.ts (15 tests) 9ms
+
+ Test Files  3 passed (3)
+      Tests  22 passed (22)
+   Start at  12:30:14
+   Duration  344ms (transform 201ms, setup 0ms, collect 268ms, tests 17ms, environment 0ms, prepare 254ms)
+
+
+> @jarvis/web@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 15.5.29
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 8.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+   Generating static pages (3/15) 
+   Generating static pages (7/15) 
+   Generating static pages (11/15) 
+ ✓ Generating static pages (15/15)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    4.34 kB         157 kB
+├ ○ /_not-found                            992 B         104 kB
+├ ○ /chat                                2.68 kB         152 kB
+├ ○ /login                               2.88 kB         145 kB
+├ ○ /logs                                1.95 kB         105 kB
+├ ○ /manifest.webmanifest                  123 B         103 kB
+├ ○ /memory                              2.95 kB         106 kB
+├ ○ /models                              3.13 kB         106 kB
+├ ○ /security                            12.9 kB         116 kB
+├ ○ /settings                            3.24 kB         109 kB
+├ ○ /systems                             1.75 kB         105 kB
+├ ○ /tasks                               1.95 kB         105 kB
+└ ○ /voice                               6.39 kB         155 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/255-73938ce8a8eac1ad.js       46.6 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.93 kB
+
+
+○  (Static)  prerendered as static content
+

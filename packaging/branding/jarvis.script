@@ -1,0 +1,23 @@
+Window.SetBackgroundTopColor(0.063, 0.098, 0.137);
+Window.SetBackgroundBottomColor(0.063, 0.098, 0.137);
+label = Image.Text("JARVIS OS", 0.55, 0.87, 0.95);
+sprite = Sprite(label);
+sprite.SetX(Window.GetWidth() / 2 - label.GetWidth() / 2);
+sprite.SetY(Window.GetHeight() / 2 - label.GetHeight() / 2);
+// Preserve visibility of boot questions and encrypted-volume prompts.
+prompt_sprite = Sprite();
+fun show_prompt(text) {
+    prompt_sprite.SetOpacity(1);
+    image = Image.Text(text, 0.90, 0.94, 0.97);
+    prompt_sprite.SetImage(image);
+    prompt_sprite.SetX(Window.GetWidth() / 2 - image.GetWidth() / 2);
+    prompt_sprite.SetY(Window.GetHeight() / 2 + 48);
+}
+fun password_prompt(prompt, bullets) { show_prompt(prompt + " (typing hidden)"); }
+fun question_prompt(prompt, entry) { show_prompt(prompt + " " + entry); }
+fun normal_prompt() { prompt_sprite.SetOpacity(0); }
+fun message_prompt(text) { prompt_sprite.SetOpacity(1); show_prompt(text); }
+Plymouth.SetDisplayPasswordFunction(password_prompt);
+Plymouth.SetDisplayQuestionFunction(question_prompt);
+Plymouth.SetDisplayNormalFunction(normal_prompt);
+Plymouth.SetMessageFunction(message_prompt);

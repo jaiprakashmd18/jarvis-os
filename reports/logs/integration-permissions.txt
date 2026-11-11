@@ -1,0 +1,9 @@
+644 /workspace/jarvis-os/build/iso/root/etc/xdg/kdeglobals
+644 /workspace/jarvis-os/build/iso/root/usr/share/polkit-1/rules.d/49-jarvis-live.rules
+644 /workspace/jarvis-os/build/iso/root/usr/share/jarvis-os/wallpaper.svg
+644 /workspace/jarvis-os/build/iso/root/etc/machine-id
+Unprivileged read-only access verified: /etc/xdg/kdeglobals
+Unprivileged read-only access verified: /etc/xdg/device_automounter_kcmrc
+Unprivileged read-only access verified: /usr/share/polkit-1/rules.d/49-jarvis-live.rules
+Unprivileged read-only access verified: /usr/share/jarvis-os/wallpaper.svg
+Unprivileged read-only access verified: /etc/sddm.conf.d/zz-jarvis.conf

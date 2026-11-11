@@ -1,0 +1,45 @@
+
+> @jarvis/web@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.29
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.9s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+   Generating static pages (3/15) 
+   Generating static pages (7/15) 
+   Generating static pages (11/15) 
+ ✓ Generating static pages (15/15)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    4.35 kB         157 kB
+├ ○ /_not-found                            993 B         104 kB
+├ ○ /chat                                2.68 kB         152 kB
+├ ○ /login                               2.88 kB         145 kB
+├ ○ /logs                                1.94 kB         105 kB
+├ ○ /manifest.webmanifest                  123 B         103 kB
+├ ○ /memory                              2.95 kB         106 kB
+├ ○ /models                              3.13 kB         106 kB
+├ ○ /security                            12.9 kB         116 kB
+├ ○ /settings                            3.24 kB         109 kB
+├ ○ /systems                             1.75 kB         105 kB
+├ ○ /tasks                               1.95 kB         105 kB
+└ ○ /voice                               6.39 kB         155 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/255-73938ce8a8eac1ad.js       46.6 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.93 kB
+
+
+○  (Static)  prerendered as static content
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

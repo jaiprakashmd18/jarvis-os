@@ -1,0 +1,30 @@
+
+> @jarvis/web@0.1.0 lint
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> @jarvis/web@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /workspace/jarvis-os/vendor/jarvis/apps/web
+
+ ✓ src/lib/chat.test.ts (5 tests) 5ms
+ ✓ src/lib/format.test.ts (2 tests) 4ms
+ ✓ src/lib/audio/audio.test.ts (15 tests) 12ms
+
+ Test Files  3 passed (3)
+      Tests  22 passed (22)
+   Start at  10:08:11
+   Duration  347ms (transform 122ms, setup 0ms, collect 176ms, tests 21ms, environment 1ms, prepare 237ms)
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

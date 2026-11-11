@@ -1,0 +1,104 @@
+update-initramfs: Generating /boot/initrd.img-6.14.0-27-generic
+cryptsetup: WARNING: Couldn't determine root device
+Parallel mksquashfs: Using 2 processors
+Creating 4.0 filesystem on /workspace/jarvis-os/build/iso/tree/casper/filesystem.squashfs, block size 131072.
+[/                                                           ]     0/55494   0%[==/                                                       ]   9600/215702   4%[======|                                                   ]  24200/215702  11%[===========-                                              ]  41800/215702  19%[===============/                                          ]  57400/215702  26%[=======================\                                  ]  90400/215702  41%[=====================================================-    ] 203400/215702  94%[======================================================|   ] 204700/215702  94%[=========================================================\] 215702/215702 100%
+
+Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 4071012.00 Kbytes (3975.60 Mbytes)
+	53.23% of uncompressed filesystem size (7647817.48 Kbytes)
+Inode table size 1962367 bytes (1916.37 Kbytes)
+	24.73% of uncompressed inode table size (7934112 bytes)
+Directory table size 2224816 bytes (2172.67 Kbytes)
+	37.88% of uncompressed directory table size (5873516 bytes)
+Xattr table size 60 bytes (0.06 Kbytes)
+	37.50% of uncompressed xattr table size (160 bytes)
+Number of duplicate files found 19602
+Number of inodes 225110
+Number of files 178476
+Number of fragments 11300
+Number of symbolic links 27636
+Number of device nodes 8
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 18990
+Number of hard-links 29
+Number of ids (unique uids + gids) 33
+Number of uids 16
+	root (0)
+	_apt (42)
+	unknown (101)
+	unknown (999)
+	unknown (116)
+	unknown (110)
+	unknown (998)
+	unknown (114)
+	unknown (115)
+	man (6)
+	unknown (118)
+	unknown (103)
+	unknown (113)
+	unknown (112)
+	unknown (105)
+	unknown (102)
+Number of gids 29
+	root (0)
+	dip (30)
+	shadow (42)
+	unknown (989)
+	unknown (106)
+	dialout (20)
+	rdma (101)
+	unknown (999)
+	nogroup (65534)
+	lp (7)
+	unknown (110)
+	audio (29)
+	unknown (998)
+	unknown (997)
+	unknown (108)
+	unknown (104)
+	staff (50)
+	unknown (114)
+	unknown (115)
+	man (12)
+	unknown (118)
+	unknown (121)
+	unknown (103)
+	unknown (117)
+	unknown (105)
+	adm (4)
+	utmp (43)
+	unknown (102)
+	mail (8)
+xorriso 1.5.6 : RockRidge filesystem manipulator, libburnia project.
+
+xorriso : NOTE : Loading ISO image tree from LBA 0
+xorriso : UPDATE :     903 nodes read in 1 seconds
+libisofs: NOTE : Found hidden El-Torito image for EFI.
+libisofs: NOTE : EFI image start and size: 2223864 * 2048 , 10160 * 512
+xorriso : NOTE : Detected El-Torito boot information which currently is set to be discarded
+Drive current: -indev '/workspace/jarvis-os/cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is written , is appendable
+Boot record  : El Torito , MBR protective-msdos-label grub2-mbr cyl-align-off GPT
+Media summary: 1 session, 2226570 data blocks, 4349m data, 40.9g free
+Volume id    : 'Kubuntu 24.04.3 LTS amd64'
+Drive current: -outdev '/workspace/jarvis-os/dist/jarvis-os-1.0.0-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 40.9g free
+xorriso : UPDATE :     902 files added in 1 seconds
+Added to ISO image: directory '/'='/workspace/jarvis-os/build/iso/tree'
+xorriso : SORRY : Cannot enable EL Torito boot image #1 because it is not a data file in the ISO filesystem
+xorriso : WARNING : -volid text problematic as automatic mount point name
+xorriso : WARNING : -volid text does not comply to ISO 9660 / ECMA 119 rules
+xorriso : NOTE : Replayed 16 boot related commands
+xorriso : NOTE : Copying to System Area: 32768 bytes from file '--interval:imported_iso:0s-15s:zero_mbrpt,zero_gpt:/workspace/jarvis-os/cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+libisofs: FAILURE : Cannot refer by GRUB2 MBR to data outside of ISO 9660 filesystem.
+libisofs: FAILURE : Operation canceled
+xorriso : FAILURE : Failed to prepare session write run
+xorriso : NOTE : -return_with SORRY 32 triggered by problem severity FAILURE

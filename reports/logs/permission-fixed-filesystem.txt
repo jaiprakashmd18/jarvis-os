@@ -1,0 +1,76 @@
+Parallel mksquashfs: Using 2 processors
+Creating 4.0 filesystem on build/iso/tree/casper/filesystem.squashfs, block size 131072.
+[/                                                           ]     0/32435   0%[===============\                                          ]  60400/215702  28%[================/                                         ]  62100/215702  28%[=========================================================/] 215702/215702 100%
+
+Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 4192970.17 Kbytes (4094.70 Mbytes)
+	54.83% of uncompressed filesystem size (7647821.96 Kbytes)
+Inode table size 2045016 bytes (1997.09 Kbytes)
+	25.77% of uncompressed inode table size (7934112 bytes)
+Directory table size 2301370 bytes (2247.43 Kbytes)
+	39.18% of uncompressed directory table size (5873516 bytes)
+Xattr table size 64 bytes (0.06 Kbytes)
+	40.00% of uncompressed xattr table size (160 bytes)
+Number of duplicate files found 19602
+Number of inodes 225110
+Number of files 178476
+Number of fragments 11300
+Number of symbolic links 27636
+Number of device nodes 8
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 18990
+Number of hard-links 29
+Number of ids (unique uids + gids) 34
+Number of uids 17
+	root (0)
+	_apt (42)
+	ubuntu (1000)
+	unknown (101)
+	unknown (999)
+	unknown (116)
+	unknown (110)
+	unknown (998)
+	unknown (114)
+	unknown (115)
+	man (6)
+	unknown (118)
+	unknown (103)
+	unknown (113)
+	unknown (112)
+	unknown (105)
+	unknown (102)
+Number of gids 30
+	root (0)
+	dip (30)
+	shadow (42)
+	unknown (989)
+	unknown (106)
+	dialout (20)
+	ubuntu (1000)
+	rdma (101)
+	unknown (999)
+	nogroup (65534)
+	lp (7)
+	unknown (110)
+	audio (29)
+	unknown (998)
+	unknown (997)
+	unknown (108)
+	unknown (104)
+	staff (50)
+	unknown (114)
+	unknown (115)
+	man (12)
+	unknown (118)
+	unknown (121)
+	unknown (103)
+	unknown (117)
+	unknown (105)
+	adm (4)
+	utmp (43)
+	unknown (102)
+	mail (8)

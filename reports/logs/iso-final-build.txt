@@ -1,0 +1,5 @@
+update-initramfs: Generating /boot/initrd.img-6.14.0-27-generic
+cryptsetup: WARNING: Couldn't determine root device
+Parallel mksquashfs: Using 2 processors
+Creating 4.0 filesystem on /workspace/jarvis-os/build/iso/tree/casper/filesystem.squashfs, block size 131072.
+[/                                                           ]     0/69391   0%[=-                                                        ]   3800/215701   1%[=/                                                        ]   7100/215701   3%[===\                                                      ]  13300/215701   6%

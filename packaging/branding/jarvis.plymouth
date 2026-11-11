@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=JARVIS OS
+Description=JARVIS OS restrained boot splash
+ModuleName=script
+[script]
+ImageDir=/usr/share/plymouth/themes/jarvis
+ScriptFile=/usr/share/plymouth/themes/jarvis/jarvis.script

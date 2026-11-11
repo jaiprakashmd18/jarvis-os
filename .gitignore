@@ -1,0 +1,16 @@
+/build/
+/dist/
+/cache/
+/vendor/
+/.venv/
+__pycache__/
+*.pyc
+*.iso
+*.vmdk
+*.vmem
+*.nvram
+*.qcow2
+*.log
+.env
+.pytest_cache/
+.ruff_cache/

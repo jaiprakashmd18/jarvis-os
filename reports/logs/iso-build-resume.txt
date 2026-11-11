@@ -1,0 +1,28 @@
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/console, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/full, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/null, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/ptmx, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/random, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/tty, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/urandom, because Operation not permitted
+
+create_inode: failed to create character device /workspace/jarvis-os/build/iso/root/dev/zero, because Operation not permitted
+Parallel unsquashfs: Using 5 processors
+8 inodes (0 blocks) to write
+
+[|                                                                   ] 0/8   0%
+
+created 0 files
+created 2 directories
+created 0 symlinks
+created 0 devices
+created 0 fifos
+created 0 sockets
+created 0 hardlinks

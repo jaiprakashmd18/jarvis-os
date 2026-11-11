@@ -1,0 +1,65 @@
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 98ms
+INFO:     Started server process [10515]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:44862 - "GET /api/system/ping HTTP/1.1" 200 OK
+JARVIS backend and web ready
+INFO:     127.0.0.1:44864 - "GET /api/system/ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44870 - "GET /api/auth/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44884 - "POST /api/auth/setup HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44894 - "POST /api/memories HTTP/1.1" 201 Created
+INFO:     127.0.0.1:44896 - "GET /api/system/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44900 - "GET /api/memories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44916 - "GET /api/voice/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43154 - "GET /api/voice/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52324 - "GET /api/system/ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52330 - "GET /api/auth/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52338 - "GET /api/system/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52352 - "GET /api/memories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52364 - "GET /api/voice/status HTTP/1.1" 200 OK
+whisper_init_from_file_with_params_no_state: loading model from '/opt/jarvis/models/ggml-base.en.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 1
+whisper_init_with_params_no_state: backends   = 1
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51864
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 512
+whisper_model_load: n_audio_head  = 8
+whisper_model_load: n_audio_layer = 6
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 512
+whisper_model_load: n_text_head   = 8
+whisper_model_load: n_text_layer  = 6
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 2 (base)
+whisper_model_load: adding 1607 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:          CPU total size =   147.37 MB
+whisper_model_load: model size    =  147.37 MB
+whisper_backend_init_gpu: device 0: CPU (type: 0)
+whisper_backend_init_gpu: no GPU found
+whisper_init_state: kv self size  =    6.29 MB
+whisper_init_state: kv cross size =   18.87 MB
+whisper_init_state: kv pad  size  =    3.15 MB
+whisper_init_state: compute buffer (conv)   =   16.28 MB
+whisper_init_state: compute buffer (encode) =   23.09 MB
+whisper_init_state: compute buffer (cross)  =    4.66 MB
+whisper_init_state: compute buffer (decode) =   96.37 MB
+INFO:     127.0.0.1:52370 - "POST /api/voice/transcribe?language=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "POST /api/voice/speak HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10515]

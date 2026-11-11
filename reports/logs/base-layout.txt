@@ -1,0 +1,20 @@
+xorriso 1.5.6 : RockRidge filesystem manipulator, libburnia project.
+
+xorriso : NOTE : Loading ISO image tree from LBA 0
+xorriso : UPDATE :     903 nodes read in 1 seconds
+libisofs: NOTE : Found hidden El-Torito image for EFI.
+libisofs: NOTE : EFI image start and size: 2223864 * 2048 , 10160 * 512
+xorriso : NOTE : Detected El-Torito boot information which currently is set to be discarded
+Drive current: -indev 'cache/base/kubuntu-24.04.3-desktop-amd64.iso'
+Media current: stdio file, overwriteable
+Media status : is written , is appendable
+Boot record  : El Torito , MBR protective-msdos-label grub2-mbr cyl-align-off GPT
+Media summary: 1 session, 2226570 data blocks, 4349m data, 53.6g free
+Volume id    : 'Kubuntu 24.04.3 LTS amd64'
+'filesystem.manifest'
+'filesystem.manifest-remove'
+'filesystem.size'
+'filesystem.squashfs'
+'filesystem.squashfs.gpg'
+'initrd'
+'vmlinuz'

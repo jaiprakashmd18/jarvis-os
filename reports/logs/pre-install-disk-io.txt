@@ -1,0 +1,7 @@
+pflash0: rd_bytes=0 wr_bytes=0 rd_operations=0 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=0 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=0
+pflash1: rd_bytes=0 wr_bytes=0 rd_operations=0 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=0 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=0
+virtio0: rd_bytes=2289664 wr_bytes=0 rd_operations=110 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=6899390 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=7955706282
+ide1-cd0: rd_bytes=290693402 wr_bytes=0 rd_operations=52681 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=3111423165 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=8424064
+floppy0: rd_bytes=0 wr_bytes=0 rd_operations=0 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=0 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=0
+sd0: rd_bytes=0 wr_bytes=0 rd_operations=0 wr_operations=0 flush_operations=0 wr_total_time_ns=0 rd_total_time_ns=0 flush_total_time_ns=0 rd_merged=0 wr_merged=0 idle_time_ns=0
+(qemu) 

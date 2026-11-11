@@ -1,0 +1,11 @@
+--- a/core/src/jarvis_core/tools/system.py
++++ b/core/src/jarvis_core/tools/system.py
+@@ -21,7 +21,7 @@
+         b = psutil.sensors_battery()
+         if b is not None:
+             battery = {"percent": round(b.percent, 1), "plugged_in": bool(b.power_plugged)}
+-    except (AttributeError, NotImplementedError):  # unsupported on platform
++    except (AttributeError, NotImplementedError, OSError):  # unsupported on platform
+         battery = None
+     load = None
+     try:

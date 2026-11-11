@@ -1,0 +1,21 @@
+[Unit]
+Description=JARVIS local assistant (unprivileged)
+After=graphical-session.target
+PartOf=graphical-session.target
+StartLimitIntervalSec=120
+StartLimitBurst=3
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -m jarvis_desktop.service
+Environment=PYTHONPATH=/opt/jarvis/desktop
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=15
+UMask=0077
+NoNewPrivileges=yes
+# Avoid mount-namespace directives unsupported by some unprivileged user managers.
+# This runs with the logged-in user's permissions and only loopback listeners.
+
+[Install]
+WantedBy=default.target

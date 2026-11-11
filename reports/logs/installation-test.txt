@@ -1,0 +1,1 @@
+Created fresh 40 GiB qcow2 test disk: /workspace/jarvis-os/build/qemu/install-disk.qcow2

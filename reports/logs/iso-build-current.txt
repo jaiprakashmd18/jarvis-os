@@ -1,0 +1,36 @@
+Parallel unsquashfs: Using 5 processors
+199814 inodes (203324 blocks) to write
+
+[/                                                         ]   1912/403138   0%[-                                                         ]   4651/403138   1%[=\                                                        ]  13262/403138   3%[===/                                                      ]  24519/403138   6%[====-                                                     ]  31098/403138   7%[=====\                                                    ]  38331/403138   9%[=======|                                                  ]  50230/403138  12%[=========/                                                ]  67965/403138  16%[==========-                                               ]  75257/403138  18%[===========\                                              ]  78763/403138  19%[===========|                                              ]  80873/403138  20%[============-                                             ]  86408/403138  21%[============\                                             ]  89743/403138  22%[=============|                                            ]  98406/403138  24%[===============/                                          ] 109915/403138  27%[==================-                                       ] 130276/403138  32%[===================\                                      ] 140397/403138  34%[=====================|                                    ] 148702/403138  36%[=======================/                                  ] 162965/403138  40%[=========================-                                ] 180411/403138  44%[===========================\                              ] 194933/403138  48%[==============================|                           ] 213936/403138  53%[=================================/                        ] 235083/403138  58%[====================================-                     ] 258522/403138  64%[=======================================\                  ] 279834/403138  69%[==========================================|               ] 297485/403138  73%[===========================================/              ] 310223/403138  76%[=============================================-            ] 320555/403138  79%[===============================================\          ] 334626/403138  83%[=================================================|        ] 352743/403138  87%[===================================================/      ] 366169/403138  90%[======================================================-   ] 382021/403138  94%[======================================================\   ] 383745/403138  95%[======================================================/   ] 387417/403138  96%[========================================================\ ] 399208/403138  99%[=========================================================\] 403138/403138 100%
+
+created 172180 files
+created 17998 directories
+created 27605 symlinks
+created 0 devices
+created 0 fifos
+created 0 sockets
+created 29 hardlinks
+Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Err:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:1 http://archive.ubuntu.com/ubuntu noble InRelease
+  Temporary failure resolving 'archive.ubuntu.com'
+Err:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+  Temporary failure resolving 'archive.ubuntu.com'
+Reading package lists...
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/noble/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/noble-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/noble-updates/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package open-vm-tools-desktop

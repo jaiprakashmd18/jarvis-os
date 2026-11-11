@@ -1,0 +1,58 @@
+[WebServer] INFO:     Started server process [9635]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] (node:9644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:9657) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer]  ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+
+Running 3 tests using 1 worker
+
+(node:9669) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] INFO:     127.0.0.1:34456 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+[WebServer] INFO:     127.0.0.1:34484 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✓  1 vendor/jarvis/apps/web/e2e/jarvis.spec.ts:7:5 › first-run setup, chat, tool approval, memory, logs (2.5s)
+[WebServer] INFO:     127.0.0.1:55716 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✓  2 vendor/jarvis/apps/web/e2e/jarvis.spec.ts:48:5 › sign out and sign back in (1.5s)
+[WebServer] INFO:     127.0.0.1:55762 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+[WebServer] INFO:     127.0.0.1:55790 - "WebSocket /api/chat/ws" [accepted]
+[WebServer] INFO:     connection open
+  ✘  3 vendor/jarvis/apps/web/e2e/voice.spec.ts:5:5 › push-to-talk: record, transcribe, reply, speak (3.0s)
+
+
+  1) vendor/jarvis/apps/web/e2e/voice.spec.ts:5:5 › push-to-talk: record, transcribe, reply, speak ─
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "espeak"
+    Received: "diagnostic"
+
+      38 |   const res = await speak;
+      39 |   expect(res.status()).toBe(200);
+    > 40 |   expect(res.headers()["x-jarvis-tts-engine"]).toBe(process.env.E2E_TTS ?? "espeak");
+         |                                                ^
+      41 |   expect(res.headers()["content-type"]).toBe("audio/wav");
+      42 |   const direct = await page.request.post("http://localhost:8000/api/voice/speak", {
+      43 |     data: { text: "Good morning, Sir.", language: "en" }, headers: { origin: "http://localhost:3100" },
+        at /workspace/jarvis-os/vendor/jarvis/apps/web/e2e/voice.spec.ts:40:48
+
+    Error Context: build/playwright-results/voice-push-to-talk-record-transcribe-reply-speak/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    build/playwright-results/voice-push-to-talk-record-transcribe-reply-speak/trace.zip
+    Usage:
+
+        npx playwright show-trace build/playwright-results/voice-push-to-talk-record-transcribe-reply-speak/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    vendor/jarvis/apps/web/e2e/voice.spec.ts:5:5 › push-to-talk: record, transcribe, reply, speak ──
+  2 passed (11.8s)

@@ -1,0 +1,3 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Packaged native GUI, typed command, opt-in default, resizing and data reopen passed as unprivileged user.

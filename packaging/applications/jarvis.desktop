@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=JARVIS Command Center
+Comment=Offline commands, voice and your assistant
+Exec=/usr/bin/jarvis-desktop
+Icon=jarvis
+Terminal=false
+Categories=Utility;
+StartupNotify=true
+X-KDE-Shortcuts=Meta+J

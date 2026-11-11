@@ -1,0 +1,3 @@
+#!/bin/sh
+# Emit a stable result for polkit; no caller arguments or disks are accessed.
+if grep -qw boot=casper /proc/cmdline; then printf live; else printf installed; fi

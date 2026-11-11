@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+umask 077
+mkdir -p "${XDG_DATA_HOME:-$HOME/.local/share}/jarvis-os"
+# Do not override the owner's choice to mask or disable the assistant.
+marker="${XDG_CONFIG_HOME:-$HOME/.config}/jarvis-os/disabled"
+[ ! -e "$marker" ] || exit 0
+systemctl --user import-environment DISPLAY WAYLAND_DISPLAY XAUTHORITY XDG_CURRENT_DESKTOP || true
+systemctl --user start jarvis.service || true
+exec /usr/bin/jarvis-desktop

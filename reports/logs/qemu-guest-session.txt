@@ -1,0 +1,80 @@
+Nov 11 13:16:07 kubuntu python3[3489]:     raise RuntimeError('Readiness timeout')
+Nov 11 13:16:07 kubuntu python3[3489]: RuntimeError: Readiness timeout
+Nov 11 13:16:08 kubuntu systemd[1814]: jarvis.service: Main process exited, code=exited, status=1/FAILURE
+Nov 11 13:16:08 kubuntu systemd[1814]: jarvis.service: Failed with result 'exit-code'.
+Nov 11 13:16:08 kubuntu systemd[1814]: jarvis.service: Consumed 1min 9.386s CPU time.
+Nov 11 13:16:09 kubuntu systemd[1814]: plasma-powerdevil.service: start operation timed out. Terminating.
+Nov 11 13:16:09 kubuntu systemd[1814]: plasma-powerdevil.service: Failed with result 'timeout'.
+Nov 11 13:16:09 kubuntu systemd[1814]: Failed to start plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:09 kubuntu systemd[1814]: plasma-powerdevil.service: Consumed 1.103s CPU time.
+Nov 11 13:16:09 kubuntu systemd[1814]: plasma-powerdevil.service: Scheduled restart job, restart counter is at 37.
+Nov 11 13:16:09 kubuntu systemd[1814]: Starting plasma-powerdevil.service - Powerdevil...
+Nov 11 13:16:12 kubuntu kwin_x11[4148]: kwin_core: Compositing disabled: video driver seems unstable. If you think it's a false positive, please try again in a few minutes.
+Nov 11 13:16:12 kubuntu kwin_x11[4148]: kwin_core: Compositing is not possible
+Nov 11 13:16:13 kubuntu systemd[1814]: jarvis.service: Scheduled restart job, restart counter is at 1.
+Nov 11 13:16:13 kubuntu systemd[1814]: Started jarvis.service - JARVIS local assistant (unprivileged).
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Main process exited, code=exited, status=15/n/a
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Failed with result 'exit-code'.
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Consumed 5.671s CPU time.
+Nov 11 13:16:14 kubuntu org_kde_powerdevil[4184]: org.kde.powerdevil: org.kde.powerdevil.chargethresholdhelper.getthreshold failed "Charge thresholds are not supported by the kernel for this hardware"
+Nov 11 13:16:14 kubuntu org_kde_powerdevil[4184]: org.kde.powerdevil: org.kde.powerdevil.backlighthelper.brightness failed
+Nov 11 13:16:14 kubuntu systemd[1814]: plasma-kwin_x11.service: Scheduled restart job, restart counter is at 4.
+Nov 11 13:16:14 kubuntu systemd[1814]: Starting plasma-kwin_x11.service - KDE Window Manager...
+Nov 11 13:16:15 kubuntu systemd[1814]: plasma-powerdevil.service: start operation timed out. Terminating.
+Nov 11 13:16:15 kubuntu systemd[1814]: plasma-powerdevil.service: Failed with result 'timeout'.
+Nov 11 13:16:15 kubuntu systemd[1814]: Failed to start plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:15 kubuntu systemd[1814]: plasma-powerdevil.service: Consumed 1.273s CPU time.
+Nov 11 13:16:15 kubuntu systemd[1814]: plasma-powerdevil.service: Scheduled restart job, restart counter is at 38.
+Nov 11 13:16:15 kubuntu systemd[1814]: Starting plasma-powerdevil.service - Powerdevil...
+Nov 11 13:16:16 kubuntu kwin_x11[4220]: glx: failed to create dri3 screen
+Nov 11 13:16:16 kubuntu kwin_x11[4220]: failed to load driver: virtio_gpu
+Nov 11 13:16:19 kubuntu systemd[1814]: Started plasma-kwin_x11.service - KDE Window Manager.
+Nov 11 13:16:20 kubuntu systemd[1814]: plasma-powerdevil.service: start operation timed out. Terminating.
+Nov 11 13:16:20 kubuntu systemd[1814]: plasma-powerdevil.service: Failed with result 'timeout'.
+Nov 11 13:16:20 kubuntu systemd[1814]: Failed to start plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:20 kubuntu systemd[1814]: plasma-powerdevil.service: Consumed 1.091s CPU time.
+Nov 11 13:16:21 kubuntu systemd[1814]: plasma-powerdevil.service: Scheduled restart job, restart counter is at 39.
+Nov 11 13:16:21 kubuntu systemd[1814]: Starting plasma-powerdevil.service - Powerdevil...
+Nov 11 13:16:23 kubuntu org.kde.KSplash[4033]: org.kde.knotifications: WaitForName: Service was not registered within timeout
+Nov 11 13:16:23 kubuntu dbus-daemon[1850]: [session uid=1000 pid=1850] Activated service 'org.kde.KSplash' failed: Process org.kde.KSplash exited with status 1
+Nov 11 13:16:25 kubuntu dbus-daemon[1850]: [session uid=1000 pid=1850] Activating service name='org.kde.KSplash' requested by ':1.170' (uid=1000 pid=4220 comm="/usr/bin/kwin_x11 --replace" label="unconfined")
+Nov 11 13:16:25 kubuntu kwin_x11[4220]: kwin_core: Compositing disabled: video driver seems unstable. If you think it's a false positive, please try again in a few minutes.
+Nov 11 13:16:25 kubuntu kwin_x11[4220]: kwin_core: Compositing is not possible
+Nov 11 13:16:25 kubuntu python3[4223]:    ▲ Next.js 15.5.29
+Nov 11 13:16:25 kubuntu python3[4223]:    - Local:        http://127.0.0.1:3000
+Nov 11 13:16:25 kubuntu python3[4223]:    - Network:      http://127.0.0.1:3000
+Nov 11 13:16:25 kubuntu python3[4223]:  ✓ Starting...
+Nov 11 13:16:26 kubuntu systemd[1814]: plasma-powerdevil.service: start operation timed out. Terminating.
+Nov 11 13:16:26 kubuntu systemd[1814]: plasma-powerdevil.service: Failed with result 'timeout'.
+Nov 11 13:16:26 kubuntu systemd[1814]: Failed to start plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:26 kubuntu systemd[1814]: plasma-powerdevil.service: Scheduled restart job, restart counter is at 40.
+Nov 11 13:16:26 kubuntu systemd[1814]: Starting plasma-powerdevil.service - Powerdevil...
+Nov 11 13:16:27 kubuntu python3[4223]:  ✓ Ready in 2s
+Nov 11 13:16:31 kubuntu systemd[1814]: plasma-powerdevil.service: start operation timed out. Terminating.
+Nov 11 13:16:31 kubuntu systemd[1814]: plasma-powerdevil.service: Failed with result 'timeout'.
+Nov 11 13:16:32 kubuntu systemd[1814]: Failed to start plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:32 kubuntu systemd[1814]: plasma-powerdevil.service: Consumed 1.246s CPU time.
+Nov 11 13:16:32 kubuntu systemd[1814]: plasma-powerdevil.service: Scheduled restart job, restart counter is at 41.
+Nov 11 13:16:32 kubuntu systemd[1814]: Starting plasma-powerdevil.service - Powerdevil...
+Nov 11 13:16:34 kubuntu org_kde_powerdevil[4300]: org.kde.powerdevil: org.kde.powerdevil.chargethresholdhelper.getthreshold failed "Charge thresholds are not supported by the kernel for this hardware"
+Nov 11 13:16:34 kubuntu org_kde_powerdevil[4300]: org.kde.powerdevil: org.kde.powerdevil.backlighthelper.brightness failed
+Nov 11 13:16:36 kubuntu systemd[1814]: Started plasma-powerdevil.service - Powerdevil.
+Nov 11 13:16:37 kubuntu org_kde_powerdevil[4300]: org.kde.powerdevil: Handle button events action could not check for screen configuration
+Nov 11 13:16:37 kubuntu org_kde_powerdevil[4300]: org.kde.powerdevil: The profile  "AC" tried to activate "DimDisplay" a non-existent action. This is usually due to an installation problem, a configuration problem, or because the action is not supported
+Nov 11 13:16:37 kubuntu dbus-daemon[1850]: [session uid=1000 pid=1850] Activating via systemd: service name='org.kde.KScreen' unit='plasma-kscreen.service' requested by ':1.177' (uid=1000 pid=4300 comm="/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdev" label="unconfined")
+Nov 11 13:16:37 kubuntu systemd[1814]: Starting plasma-kscreen.service - KScreen...
+Nov 11 13:16:37 kubuntu org_kde_powerdevil[4300]: org.kde.powerdevil: org.kde.powerdevil.chargethresholdhelper.getthreshold failed "Charge thresholds are not supported by the kernel for this hardware"
+Nov 11 13:16:37 kubuntu dbus-daemon[1850]: [session uid=1000 pid=1850] Successfully activated service 'org.kde.KScreen'
+Nov 11 13:16:37 kubuntu systemd[1814]: Started plasma-kscreen.service - KScreen.
+Nov 11 13:16:38 kubuntu kscreen_backend_launcher[4337]: kscreen.xrandr: Connected output 63 to CRTC 62
+Nov 11 13:16:38 kubuntu kscreen_backend_launcher[4337]: kscreen.xcb.helper: Detected XRandR 1.6
+Nov 11 13:16:38 kubuntu kscreen_backend_launcher[4337]: kscreen.xcb.helper: Event Base:  89
+Nov 11 13:16:38 kubuntu kscreen_backend_launcher[4337]: kscreen.xcb.helper: Event Error:  147
+Nov 11 13:17:06 kubuntu python3[4222]: INFO:     Started server process [4222]
+Nov 11 13:17:06 kubuntu python3[4222]: INFO:     Waiting for application startup.
+Nov 11 13:17:07 kubuntu python3[4222]: INFO:     Application startup complete.
+Nov 11 13:17:07 kubuntu python3[4222]: INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Nov 11 13:17:09 kubuntu python3[4222]: INFO:     127.0.0.1:44768 - "GET /api/system/ping HTTP/1.1" 200 OK
+Nov 11 13:17:10 kubuntu python3[4207]: JARVIS backend and web ready
+Nov 11 13:17:25 kubuntu org.kde.KSplash[4264]: org.kde.knotifications: WaitForName: Service was not registered within timeout
+Nov 11 13:17:25 kubuntu dbus-daemon[1850]: [session uid=1000 pid=1850] Activated service 'org.kde.KSplash' failed: Process org.kde.KSplash exited with status 1
